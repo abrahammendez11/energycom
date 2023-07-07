@@ -330,7 +330,8 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
-    color: #FFFF;
+    color: #0880e8;
+    
 }
 
 .navbar .dropdown ul a i {
@@ -1612,7 +1613,7 @@ section {
 --------------------------------------------------------------*/
 
 .contact {
-    background: url("../img/mapaEC2.png") left center no-repeat;
+    background: url("../img/mapaEC2.png")  center no-repeat;
     position: relative;
 }
 
