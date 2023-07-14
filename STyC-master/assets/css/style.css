@@ -100,7 +100,7 @@ h6 {
     position: fixed;
     top: calc(50% - 30px);
     left: calc(50% - 30px);
-    border: 6px solid #0880e8;
+    border: 6px solid #000000;
     border-top-color: #bfe0fd;
     border-radius: 50%;
     width: 60px;
@@ -219,11 +219,11 @@ h6 {
 #header .logo img {}
 
 .header-inner-pages {
-    background: rgba(5, 87, 158, 0.9) !important;
+    background: #000000 !important;
 }
 
 .topbar-inner-pages {
-    background: rgba(6, 98, 178, 0.9) !important;
+    background: #000000 !important;
 }
 
 
@@ -341,7 +341,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-    color: #0880e8;
+    color: #000000;
 }
 
 .navbar .dropdown:hover>ul {
@@ -406,7 +406,7 @@ h6 {
     right: 0;
     left: 0;
     bottom: 0;
-    background: rgba(5, 74, 133, 0.9);
+    background: #000000;
     transition: 0.3s;
     z-index: 999;
 }
@@ -506,8 +506,8 @@ h6 {
    background: url("../img/fondoGris.jpg") top center;
     background-size: cover;
     position: relative;
-    margin-bottom: -90px;
-    z-index: 99;
+    margin-bottom: -60px;
+    z-index: 89;
     transition: 0.35s;
 }
 
@@ -536,7 +536,7 @@ h6 {
 
 #hero h2 {
     color: #000;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 48px;
     font-weight: 700;
 }
@@ -570,7 +570,7 @@ h6 {
     letter-spacing: 1px;
     display: inline-block;
     padding: 12px 32px;
-    border-radius: 50px;
+    border-radius: 30px;
     transition: 0.5s;
     line-height: 1;
     margin: 10px;
@@ -1614,7 +1614,8 @@ section {
 
 .contact {
     background: url("../img/mapaEC.png")  no-repeat;
-    background-position: 20%;
+    background-position-y: 30%;
+    background-position-x: 20%;
     position: left;
 }
 
@@ -2315,13 +2316,13 @@ section {
 
 #footer {
     background: #000000;
-    padding-top: -70px;
+    padding-top: -50px;
     color: #fff;
     font-size: 14px;
 }
 
 #footer .footer-newsletter {
-    padding: 50px 0;
+    padding: 10px 0;
     padding-top: -80px;
     background: #000000
     
@@ -2340,7 +2341,7 @@ section {
     background: #000000;
     padding: 6px 10px;
     position: relative;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 #footer .footer-newsletter form input[type=email] {
