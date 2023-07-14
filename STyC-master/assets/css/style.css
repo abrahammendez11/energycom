@@ -18,11 +18,11 @@ body {
 
 a {
     text-decoration: none;
-    color: #0880e8;
+    color: #000000;
 }
 
 a:hover {
-    color: #2b99f8;
+    color: #000;
     text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ h6 {
     right: 15px;
     bottom: 15px;
     z-index: 996;
-    background: #a5be00;
+    background: #000000;
     width: 40px;
     height: 40px;
     border-radius: 50px;
@@ -62,14 +62,14 @@ h6 {
 
 .back-to-top:hover i {
     font-size: 28px;
-    color: #a5be00;
+    color: #000000;
     line-height: 0;
 }
 
 .back-to-top:hover {
     background: #ffffff;
-    color: #a5be00;
-    border-color: #a5be00;
+    color: #000000;
+    border-color: #000000;
     border-width: 1px;
     border-style: solid;
 }
@@ -158,7 +158,7 @@ h6 {
 }
 
 #topbar .contact-info i {
-    color: #f6b024;
+    color: #ffffff;
     line-height: 0;
     margin-right: 5px;
 }
@@ -181,7 +181,7 @@ h6 {
 }
 
 #topbar .cta a:hover {
-    background: #f1a40a;
+    background: #ffffff;
 }
 
 
@@ -190,7 +190,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-    background-image: url("../../assets/img/otroazul.jpg");
+    background-image: url("../../assets/img/Cuadronegro.png");
     transition: all 0.5s;
     z-index: 997;
     height: 115px;
@@ -198,7 +198,7 @@ h6 {
 }
 
 #header.header-scrolled {
-    background-image: url("../../assets/img/otroazul.jpg");
+    background-image: url("../../assets/img/Cuadronegro.png");
     top: 0;
 }
 
@@ -285,7 +285,7 @@ h6 {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #f6b024;
+    background-color: #ffffff;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
@@ -315,7 +315,7 @@ h6 {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #f6b024;
+    background: #ffffff;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.3s;
     border-radius: 8px;
@@ -330,7 +330,7 @@ h6 {
     font-size: 14px;
     font-weight: 500;
     text-transform: none;
-    color: #0880e8;
+    color: #000000;
     
 }
 
@@ -387,7 +387,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-    color: #f6b024;
+    color: #000000;
 }
 
 @media (max-width: 991px) {
@@ -439,7 +439,7 @@ h6 {
 .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
-    color: #0665b7;
+    color: #000000;
 }
 
 .navbar-mobile a:hover:before,
@@ -451,7 +451,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-    color: #f6b024;
+    color: #000000;
 }
 
 .navbar-mobile .getstarted,
@@ -486,7 +486,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-    color: #f6b024;
+    color: #000000;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -535,7 +535,7 @@ h6 {
 }
 
 #hero h2 {
-    color: #a5be00;
+    color: #000;
     margin-bottom: 30px;
     font-size: 48px;
     font-weight: 700;
@@ -545,12 +545,12 @@ h6 {
     width: 80%;
     animation-delay: 0.4s;
     margin: 0 auto 30px auto;
-    color: #a5be00;
+    color: #000000;
 }
 
 #hero .carousel-control-prev,
 #hero .carousel-control-next {
-    color: #a5be00;
+    color: #000000;
     width: 10%;
 }
 
@@ -574,13 +574,13 @@ h6 {
     transition: 0.5s;
     line-height: 1;
     margin: 10px;
-    color: #a5be00;
+    color: #000000;
     animation-delay: 0.8s;
-    border: 2px solid #f6b024;
+    border: 2px solid #000000;
 }
 
 #hero .btn-get-started:hover {
-    background: #a5be00;
+    background: #000000;
     color: #ffffff;
     text-decoration: none;
 }
@@ -617,7 +617,7 @@ section {
 }
 
 .section-bg {
-    background-color: #f1f8ff;
+    background-color: #e1e5f2;
 }
 
 .section-title {
@@ -631,7 +631,7 @@ section {
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 0;
-    color: #a5be00;
+    color: #000000;
 }
 
 .section-title p {
@@ -654,8 +654,8 @@ section {
     padding: 0px 17px;
     position: relative;
     overflow: hidden;
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 5px 5px 10px #a5be00(88, 42, 124, 1);
+    background: #e7ecef;
+    box-shadow: 5px 5px 10px #000000(88, 42, 124, 1);
     transition: all 0.3s ease-in-out;
     border: rgba(88, 42, 124, 0.35);
     border-width: 2px;
@@ -673,7 +673,7 @@ section {
     display: flex;
     font-size: 36px;
     line-height: 1;
-    color: #f6b024;
+    color: #7209b7;
 }
 
 .icon-boxes .title {
@@ -700,10 +700,11 @@ section {
 
 .about {
     padding: 140px 0;
-  /*  background: url("../img/mapaTlaxcala.png") top center no-repeat;*/
+    background: url("../img/mapaTlaxcala.png");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    justify-content: left;
     margin: 0;
     height: 100vh;
 }
@@ -733,7 +734,7 @@ section {
 }
 
 .about .content ul li {
-    padding-left: 28px;
+    padding-left: 20px;
     position: relative;
 }
 
@@ -764,14 +765,14 @@ section {
     border-radius: 5px;
     transition: 0.3s;
     line-height: 1;
-    color: #a5be00;
+    color: #000000;
     animation-delay: 0.8s;
     margin-top: 6px;
-    border: 2px solid #f6b024;
+    border: 2px solid #7209b7;
 }
 
 .about .content .btn-learn-more:hover {
-    background: #a5be00;
+    background: #000000;
     color: #fff;
     text-decoration: none;
 }
@@ -788,7 +789,6 @@ section {
 --------------------------------------------------------------*/
 
 .clients .swiper-slide img {
-    opacity: 0.5;
     transition: 0.3s;
 }
 
@@ -810,7 +810,7 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #00bfd5;
+    background-color: #000000;
 }
 
 .clients .owl-item {
@@ -1061,13 +1061,13 @@ section {
     margin-bottom: 20px;
     padding: 50px 40px;
     border-radius: 6px;
-    background: #fff;
+    background: #e1e5f2;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
 .services .icon-box i {
     float: left;
-    color: #f6b024;
+    color: #7209b7;
     font-size: 40px;
     line-height: 0;
 }
@@ -1128,12 +1128,12 @@ section {
     transition: 0.5s;
     margin: 10px;
     border-radius: 50px;
-    border: 2px solid #f6b024;
+    border: 2px solid #7209b7;
     color: #fff;
 }
 
 .cta .cta-btn:hover {
-    background: #f6b024;
+    background: #7209b7;
 }
 
 @media (max-width: 1024px) {
@@ -1394,7 +1394,7 @@ section {
     width: 32px;
     height: 32px;
     background: #ecf6fe;
-    color: #0665b7;
+    color: #000;
 }
 
 .team .member .social a i {
@@ -1590,7 +1590,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-    color: #0880e8;
+    color: #000000;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1613,8 +1613,9 @@ section {
 --------------------------------------------------------------*/
 
 .contact {
-    background: url("../img/mapaEC2.png")  center no-repeat;
-    position: relative;
+    background: url("../img/mapaEC.png")  no-repeat;
+    background-position: 20%;
+    position: left;
 }
 
   
@@ -1626,7 +1627,7 @@ section {
     bottom: 0;
     top: 0;
     left: 0;
-    right: 0;
+    right: 100;
 }
 
 .contact .container {
@@ -1639,7 +1640,7 @@ section {
 
 .contact .info i {
     font-size: 20px;
-    background: #0880e8;
+    background: #000000;
     color: #fff;
     float: left;
     width: 44px;
@@ -1793,7 +1794,7 @@ section {
 .breadcrumbs ol li+li::before {
     display: inline-block;
     padding-right: 10px;
-    color: #f8c255;
+    color: #7209b7;
     content: "/";
 }
 
@@ -1826,12 +1827,12 @@ section {
 }
 
 .blog .entry .entry-title a {
-    color: #054a85;
+    color: #000814;
     transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-    color: #f6b024;
+    color: #7209b7;
 }
 
 .blog .entry .entry-meta {
@@ -1876,7 +1877,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
     display: inline-block;
-    background: #f6b024;
+    background: #7209b7;
     color: #fff;
     padding: 6px 20px;
     transition: 0.3s;
@@ -1885,7 +1886,7 @@ section {
 }
 
 .blog .entry .entry-content .read-more a:hover {
-    background: #f7b93c;
+    background: #7209b7;
 }
 
 .blog .entry .entry-content h3 {
@@ -1919,35 +1920,35 @@ section {
     top: 0;
     bottom: 0;
     width: 3px;
-    background-color: #0880e8;
+    background-color: #000814;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .blog .entry .entry-footer {
-    padding-top: 10px;
+    padding-top: 0px;
     border-top: 1px solid #e6e6e6;
 }
 
 .blog .entry .entry-footer i {
-    color: #8ec8fb;
+    color: #000814;
     display: inline;
 }
 
 .blog .entry .entry-footer a {
-    color: #34a7d3;
+    color: #000814;
     transition: 0.3s;
 }
 
 .blog .entry .entry-footer a:hover {
-    color: #f6b024;
+    color: #000000;
 }
 
 .blog .entry .entry-footer .cats {
     list-style: none;
     display: inline;
     padding: 0 20px 0 0;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .blog .entry .entry-footer .cats li {
@@ -1967,7 +1968,7 @@ section {
 
 .blog .entry .entry-footer .tags li+li::before {
     padding-right: 6px;
-    color: #6c757d;
+    color: #000000;
     content: ",";
 }
 
@@ -1999,7 +2000,7 @@ section {
     font-size: 22px;
     margin-bottom: 0px;
     padding: 0;
-    color: #0880e8;
+    color: #000000;
 }
 
 .blog .blog-author .social-links {
@@ -2044,17 +2045,17 @@ section {
 
 .blog .blog-comments .comment h5 a {
     font-weight: bold;
-    color: #444444;
+    color: #000000;
     transition: 0.3s;
 }
 
 .blog .blog-comments .comment h5 a:hover {
-    color: #f6b024;
+    color: #7209b7;
 }
 
 .blog .blog-comments .comment h5 .reply {
     padding-left: 10px;
-    color: #0880e8;
+    color: #000000;
 }
 
 .blog .blog-comments .comment h5 .reply i {
@@ -2064,7 +2065,7 @@ section {
 .blog .blog-comments .comment time {
     display: block;
     font-size: 14px;
-    color: #2b99f8;
+    color: #000000;
     margin-bottom: 5px;
 }
 
@@ -2095,7 +2096,7 @@ section {
 
 .blog .blog-comments .reply-form input:focus {
     box-shadow: none;
-    border-color: #fad386;
+    border-color: #7209b7;
 }
 
 .blog .blog-comments .reply-form textarea {
@@ -2117,15 +2118,15 @@ section {
     border-radius: 4px;
     padding: 10px 20px;
     border: 0;
-    background-color: #0880e8;
+    background-color: #000814;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
-    background-color: #138df7;
+    background-color: #000814;
 }
 
 .blog .blog-pagination {
-    color: #0880e8;
+    color: #000814;
 }
 
 .blog .blog-pagination ul {
@@ -2141,7 +2142,7 @@ section {
 }
 
 .blog .blog-pagination li a {
-    color: #0880e8;
+    color: #000814;
     padding: 7px 16px;
     display: flex;
     align-items: center;
@@ -2150,7 +2151,7 @@ section {
 
 .blog .blog-pagination li.active,
 .blog .blog-pagination li:hover {
-    background: #f6b024;
+    background: #7209b7;
 }
 
 .blog .blog-pagination li.active a,
@@ -2169,7 +2170,7 @@ section {
     font-weight: 700;
     padding: 0 0 0 0;
     margin: 0 0 15px 0;
-    color: #0665b7;
+    color: #000814;
     position: relative;
 }
 
@@ -2201,7 +2202,7 @@ section {
     font-size: 16px;
     padding: 0 15px;
     margin: -1px;
-    background: #f6b024;
+    background: #7209b7;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
@@ -2213,7 +2214,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-    background: #f8c255;
+    background: #7209b7;
 }
 
 .blog .sidebar .categories ul {
@@ -2226,12 +2227,12 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-    color: #0665b7;
+    color: #000814;
     transition: 0.3s;
 }
 
 .blog .sidebar .categories ul a:hover {
-    color: #f6b024;
+    color: #7209b7;
 }
 
 .blog .sidebar .categories ul a span {
@@ -2256,12 +2257,12 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-    color: #0665b7;
+    color: #000814;
     transition: 0.3s;
 }
 
 .blog .sidebar .recent-posts h4 a:hover {
-    color: #f6b024;
+    color: #7209b7;
 }
 
 .blog .sidebar .recent-posts time {
@@ -2286,7 +2287,7 @@ section {
 }
 
 .blog .sidebar .tags ul a {
-    color: #0880e8;
+    color: #000814;
     font-size: 14px;
     padding: 6px 14px;
     margin: 0 6px 8px 0;
@@ -2297,8 +2298,8 @@ section {
 
 .blog .sidebar .tags ul a:hover {
     color: #fff;
-    border: 1px solid #f6b024;
-    background: #f6b024;
+    border: 1px solid #7209b7;
+    background: #7209b7;
 }
 
 .blog .sidebar .tags ul a span {
@@ -2313,8 +2314,8 @@ section {
 --------------------------------------------------------------*/
 
 #footer {
-    background: #a5be00;
-    padding-top: -80px;
+    background: #000000;
+    padding-top: -70px;
     color: #fff;
     font-size: 14px;
 }
@@ -2322,7 +2323,7 @@ section {
 #footer .footer-newsletter {
     padding: 50px 0;
     padding-top: -80px;
-    background: #34a7d3
+    background: #000000
     
 }
 
@@ -2335,8 +2336,8 @@ section {
 }
 
 #footer .footer-newsletter form {
-    margin-top: 30px;
-    background: #a5be00;
+    margin-top: 10px;
+    background: #000000;
     padding: 6px 10px;
     position: relative;
     border-radius: 50px;
@@ -2361,20 +2362,21 @@ section {
     background: rgba(88, 42, 124, 0.9);
     color: #fff;
     transition: 0.3s;
-    border-radius: 50px;
+    border-radius: 30px;
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-    background: #0880e8;
+    background: #000814;
 }
 
 #footer .footer-top {
-    background-image: url("../../assets/img/otroazul.jpg");
-    padding: 60px 0 30px 0;
+    
+    background: #000000;
+    padding: 5px 0 5px 0;
 }
 
 #footer .footer-top .footer-info {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -2424,7 +2426,7 @@ section {
 }
 
 #footer .footer-top .footer-links {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 #footer .footer-top .footer-links ul {
@@ -2435,7 +2437,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
     padding-right: 2px;
-    color: #5db1f9;
+    color: #000814;
     font-size: 18px;
     line-height: 1;
 }
@@ -2466,7 +2468,7 @@ section {
 }
 
 #footer .footer-top .footer-contact p {
-    line-height: 26px;
+    line-height: 20px;
 }
 
 #footer .copyright {
