@@ -28,7 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- =======================================================
   * Template Name: Anyar
   * Updated: Mar 10 2023 with Bootstrap v5.2.3
@@ -57,7 +57,7 @@
   <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><img src="assets/img/logoNegrosinfondo2.png"  width="295" height="100"><a href="index.html"></a></h1>
+      <h1 class="logo flex-column"><img src="assets/img/logoNegrosinfondo2.png" ><a href="index.html"></a> </h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -92,78 +92,29 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex justify-content-center align-items-center">
-    <div id="heroCarousel" data-bs-interval="4500" class="container carousel carousel-fade" data-bs-ride="carousel">
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown"> <span>Energy Consulting and Data Analytics</span></h2>
-          <p class="animate__animated animate__fadeInUp"> Soluciones de ingeniería para la industria energética.</p>
-          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Quienes Somos</a>
-        </div>
-      </div>
+  
+  <!-- End Hero -->
 
-      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
 
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a> 
-             
-           <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown"></h2>
-          <img height="400" width="600" src="assets/img/logoNegrosinfondo2.png">
-          <p class="animate__animated animate__fadeInUp"></p>
-        </div>
-      
+ 
 
-      
-      <!-- Slide 3 -->
-
-      <!--
-      <div class="carousel-item">
-        <div class="carousel-container">
-          <h2 class="animate__animated animate__fadeInDown"></h2>-->
-
-         <!-- <img height="400" width="600" src="assets/img/logoNegro.jpg">-->
-         
-         <!--<p class="animate__animated animate__fadeInUp"></p>
-        </div>
-      </div>-->
-
-       <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
-      </a>
-
-      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
-      </a> 
-
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <div class="col-md-6 col-lg-1 d-flex align-items-stretch mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-      <!-- <div class="icon-box">
-        <div class="icon"><i class="bx bx-layer"></i></div>
-        <h4 class="title"><a href="">Nemo Enim</a></h4>
-        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-      </div> -->
-    </div>
-
+<!-- End Icon Boxes Section -->
+<br><br><br><br><br><br>
+<section>
+ 
+  
+   
+  <div class="main-text" data-aos="fade-right">
+    Energy consulting <br> and Data Analytics
   </div>
-
-
-</div>
-
-</div>
-</section><!-- End Icon Boxes Section -->
-
-
+  <center>
+  <div class="legend" data-aos="zoom-in">
+    Soluciones para la industria energética
+  </div>
+</center>
+</section>
+<br><br><br>
     <!-- ======= Icon Boxes Section ======= -->
     <section id="icon-boxes" class="icon-boxes ">
       <div class="container align-content-center">
@@ -181,8 +132,8 @@
             </div>
   
             <div class="col-md-5 col-lg-5 d-flex align-items-stretch mb-5 mb-lg-0 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon-box">
-                <div class="icon"><img src="assets/img/quien.png" alt="Icono de mision,cabeza humana con mirilla" width="45"> </div>
+              <div class="icon-box" data-aos="fade-right">
+                <div class="icon"><img src="assets/img/quien.png" alt="Icono de mision,cabeza humana con mirilla" width="45" > </div>
                 <h4 class="title"><a href="">Nosotros</a></h4>
                 <p class="description text-justify">
                   Creada en 2020 por un grupo de Ingenieros Metalurgicos, Quimicos y Mecanicos, con mas de 100 años de experiencia conjunta y con el objetivo de 
@@ -192,8 +143,8 @@
             </div>
   
             <div class="col-md-5 col-lg-5 d-flex align-items-stretch mb-5 mb-lg-0 aos-init aos-animate"  id="us section" data-aos="fade-up" data-aos-delay="200">
-              <div class="icon-box">
-                <div class="icon"><img src="assets/img/proyectos.png" alt="Icono de mision,cabeza humana con mirilla" width="45"></div>
+              <div class="icon-box" data-aos="fade-left">
+                <div class="icon"><img src="assets/img/proyectos.png" alt="Icono de mision,cabeza humana con mirilla" width="45" ></div>
                 <h4 class="title"><a href="">Redes de Conocimiento</a></h4>
                 <p class="description text-justify">
                   Crear desarollo de soluciones y tecnologia utilizando relaciones comerciales con empresas lideres en el mercado (nacional e internacional)
@@ -204,6 +155,9 @@
                   </p>
               </div>
             </div>
+          </div></div></div></div>
+          </section>
+          
 
 <!-- ======= About Us Section ======= -->
 <!--<section id="about" class="about">
@@ -263,12 +217,12 @@
         <div class="container" data-aos="zoom-in">
             <div class="clients-slider swiper">
                 <div class="swiper-wrapper align-items-center">
-                    <div class="swiper-slide"><img src="assets/img/gas.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/img/cenegas.jpeg" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/img/engie.svg" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/img/gas.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/img/cenegas.jpeg" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/img/engie.svg" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/gas.png" class="iconc" alt="" width="120%"></div>
+                    <div class="swiper-slide"><img src="assets/img/cenegas.jpeg" class="iconcc" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/engie.svg" class="iconc" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/gas.png" class="iconc" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/cenegas.jpeg" class="iconcc" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/engie.svg" class="iconc" alt=""></div>
                     
                 </div>
                 <div class="swiper-pagination"></div>
@@ -277,6 +231,74 @@
         </div>
     </section>
 
+    <div class="statistics-section">
+      <h2>Nuestras estadísticas</h2>
+      <div class="statistic-container">
+        <div class="statistic">
+          <h3>Clientes satisfechos</h3>
+          <p class="count" data-target="95">0</p>
+        </div>
+        <div class="statistic">
+          <h3>Ingresos anuales</h3>
+          <p class="count" data-target="100">0</p>
+        </div>
+        <div class="statistic">
+          <h3>Proyectos completados</h3>
+          <p class="count" data-target="200">0</p>
+        </div>
+        <div class="statistic">
+          <h3>Equipo de profesionales</h3>
+          <p class="count" data-target="50">0</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Función para animar los números del contador
+      function animateValue(element, start, end, duration) {
+        let range = end - start;
+        let current = start;
+        let increment = end > start ? 1 : -1;
+        let stepTime = Math.abs(Math.floor(duration / range));
+        let timer = setInterval(function() {
+          current += increment;
+          element.innerHTML = current;
+          if (current == end) {
+            clearInterval(timer);
+          }
+        }, stepTime);
+      }
+  
+      // Animar los números cuando se desplazan a la vista del usuario
+      function animateStatistics() {
+        $(".count").each(function() {
+          let target = $(this).attr("data-target");
+          animateValue(this, 0, target, 1000);
+        });
+      }
+  
+      // Detectar cuando los números entran en la vista del usuario
+      $(window).on("scroll", function() {
+        let statisticsSection = $(".statistics-section");
+        if (isElementInViewport(statisticsSection)) {
+          animateStatistics();
+        }
+      });
+  
+      // Función para verificar si un elemento está dentro de la vista del usuario
+      function isElementInViewport(el) {
+        var rect = el[0].getBoundingClientRect();
+        return (
+          rect.top >= 0 &&
+          rect.left >= 0 &&
+          rect.bottom <=
+            (window.innerHeight || document.documentElement.clientHeight) &&
+          rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
+      }
+  
+      // Animar los números al cargar la página si ya están en la vista
+      animateStatistics();
+    </script>
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -291,7 +313,7 @@
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="icon-box">
               <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Metalurgia y Corrosion</a></h4>
+              <h4><a href="#" >Metalurgia y Corrosion</a></h4>
               <p>Evaluacion, consultoria y soluciones para disminuir los procesos corrosion que suceden en activos de transporte de hidrocarburos.</p>
             </div>
           </div>
@@ -321,7 +343,8 @@
       </div>
     
     
-    </section><!-- End Services Section -->
+    </section>
+ <!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <!--
@@ -451,7 +474,8 @@
         </div>
 
       </div>
-    </section><!-- End Portfoio Section -->
+    </section>
+    <!-- End Portfoio Section -->
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
@@ -463,16 +487,18 @@
         </div>
 
         <div class="row">
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+<center>
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
             <div class="member d-flex align-items-start">
               <div class="pic"><img src="https://img.genial.ly/63cd64e406e695001157da4b/1f6c84e7-e899-411d-b2f3-30ec5d2db162.png" class="img-fluid" alt=""></div>
               <div class="member-info">
+                <left>
                 <h4>Carlos Alberto Mares Nava</h4>
                 <span>Key Account Manager</span>
                 <p>Ingeniero Químico Metalúrgico (UNAM/FQ)</p>
                 <p>Maestría en Alta Dirección (UNAM-FQ)</p>
                 <p>15 años trabajando en teorías de corrosión, integridad, inspección, big data y realidad virtual </p>
+                </left>
                 <div class="social">
                   <a href=""><i class="ri-twitter-fill"></i></a>
                   <a href=""><i class="ri-facebook-fill"></i></a>
@@ -482,12 +508,15 @@
               </div>
             </div>
           </div>
+        </center>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Team Section -->
+    </section>
+    
+    <!-- End Team Section -->
 
     <!-- ======= Pricing Section ======= -->
    <!-- <section id="pricing" class="pricing">
@@ -649,26 +678,26 @@
         <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
 
        
-           <div class="col-lg-5">
+           <div class="col-lg-5" >
                 <div class="info">
                     <div class="address">
                       <i class="bi bi-geo-alt"></i>
                       <h4>Direccion:</h4>
-                      <p>Centro: Av Juarez 65, Tlaxcala Centro.</p>
-                      <p>Norte: Privada Milan 836, Verona Residencial, Tijuana Baja California.</p>
-                      <p>Sur: Cerrada Tulipan Manzana 2, lote 5, Fraccionamiento Santa Elena, Centro. cunduacan Tabasco.</P>                                                  
+                      <p><strong>Centro: Av Juarez 65, Tlaxcala Centro.</strong></p>
+                      <p><strong>Norte: Privada Milan 836, Verona Residencial, Tijuana Baja California.</strong></p>
+                      <p><strong>Sur: Cerrada Tulipan Manzana 2, lote 5, Fraccionamiento Santa Elena, Centro. cunduacan Tabasco.</strong></P>                                                  
                     </div>
 
                     <div class="email">
                       <i class="bi bi-envelope"></i>
                       <h4>Email:</h4>
-                      <p>cmares@ecdanalytics.com</p>
+                      <p><strong>mares@ecdanalytics.com</strong></p>
                     </div>
 
                     <div class="phone">
                       <i class="bi bi-phone"></i>
-                      <h4>Telefono:</h4>
-                      <p>22-15-75-10-32</p>                
+                      <h4><strong>Telefono:</strong></h4>
+                      <p><strong>22-15-75-10-32</strong></p>                
                     </div>
                 </div>      
              </div>     
